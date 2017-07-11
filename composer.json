@@ -1,0 +1,25 @@
+{
+  "name": "xutl/yii2-weui-widget",
+  "description": "The weui extension for the Yii framework",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "weui",
+    "yii2"
+  ],
+  "authors": [
+    {
+      "name": "XuTL",
+      "email": "xutl@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "xutl\\weui\\": ""
+    }
+  }
+}
