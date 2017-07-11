@@ -18,4 +18,8 @@ class WeuiAsset extends AssetBundle
     public $css = [
         '//res.wx.qq.com/open/libs/weui/1.1.2/weui.min.css',
     ];
+
+    public $js = [
+        '//res.wx.qq.com/open/libs/weuijs/1.1.2/weui.min.js'
+    ];
 }
