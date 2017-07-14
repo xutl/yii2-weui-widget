@@ -22,4 +22,8 @@ class WeuiAsset extends AssetBundle
     public $js = [
         '//res.wx.qq.com/open/libs/weuijs/1.1.2/weui.min.js'
     ];
+
+    public $depends = [
+        'xutl\wechat\WechatAsset'
+    ];
 }
