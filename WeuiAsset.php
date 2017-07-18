@@ -9,6 +9,10 @@ namespace xutl\weui;
 
 use yii\web\AssetBundle;
 
+/**
+ * Class WeuiAsset
+ * @package xutl\weui
+ */
 class WeuiAsset extends AssetBundle
 {
     /**
@@ -23,7 +27,10 @@ class WeuiAsset extends AssetBundle
         '//res.wx.qq.com/open/libs/weuijs/1.1.2/weui.min.js'
     ];
 
+    /**
+     * @var array
+     */
     public $depends = [
-        'xutl\wechat\WechatAsset'
+        'yii\web\YiiAsset',//yii jq
     ];
 }
